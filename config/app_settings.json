@@ -1,0 +1,43 @@
+{
+    "last_opened_project_path":  "",
+    "asset_locations":  {
+         "project_files":  "src",
+         "external_tools":  "tools",
+         "agent_configs":  "config\\agent_configs",
+         "code_templates":  "config\\templates"
+    },
+    "gdrive": {
+        "client_id": "",
+        "client_secret": "",
+        "refresh_token": "",
+        "root_folder_id": ""
+    },
+    "default_llm":  "local_ollama",
+    "llm_configurations":  {
+         "anthropic_claude":  {
+              "is_connected":  true,
+              "selected_model":  "claude-3-opus-20240229",
+              "api_key":  "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"
+        },
+        "google_gemini":  {
+              "is_connected":  true,
+              "selected_model":  "gemini-pro",
+              "api_key":  "AIzaSyDyzna4YkrzskczKK9G74-EvJqn3sTEr0g"
+        },
+        "local_ollama":  {
+              "selected_model":  "",
+              "endpoint":  "http://localhost:11434",
+              "is_connected":  false
+        },
+        "local_lm_studio":  {
+              "selected_model":  "",
+              "endpoint":  "http://localhost:1234",
+              "is_connected":  false
+        },
+        "openai":  {
+              "selected_model":  "",
+              "api_key":  "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",
+              "is_connected":  false
+        }
+    }
+}
